@@ -17,6 +17,7 @@ The export can take a couple of hours or even days. You will get an email from g
 When the export is ready, download all .zip files and put them in one folder.
 > [!IMPORTANT]
 > The files must be named "takeout-_<some characters>_.zip"
+
 > [!IMPORTANT]
 > Do **not** unpack the .zip files!
 ## How to run
