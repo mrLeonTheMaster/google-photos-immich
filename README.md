@@ -14,8 +14,7 @@ This script uses [immich-go](https://github.com/simulot/immich-go)
 7. Click "Create Export"
 The export can take a couple of hours or even days. You will get an email from google when it is done.
 
-
-When the export is ready download all zip files and put them in one folder.
+When the export is ready, download all .zip files and put them in one folder.
 > [!IMPORTANT]
 > Do **not** unpack the .zip files!
 ## How to run
