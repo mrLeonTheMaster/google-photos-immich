@@ -1,5 +1,6 @@
 # Google Photos Immich Uploader
 A script to upload all photos from your Google account to Immich.
+
 This script uses [immich-go](https://github.com/simulot/immich-go)
 ## Preparation
 > [!NOTE]
@@ -12,6 +13,7 @@ This script uses [immich-go](https://github.com/simulot/immich-go)
 6. As the file type select .zip and as the size select the biggest available
 7. Click "Create Export"
 The export can take a couple of hours or even days. You will get an email from google when it is done.
+
 
 When the export is ready download all zip files and put them in one folder.
 > [!IMPORTANT]
