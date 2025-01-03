@@ -1,4 +1,6 @@
 # Google Photos Immich Uploader
+A script to upload all photos from your Google account to Immich.
+This script uses [immich-go](https://github.com/simulot/immich-go)
 ## Preparation
 > [!NOTE]
 > At some step in this stage, you will need to verify your Google account password.
@@ -13,7 +15,7 @@ The export can take a couple of hours or even days. You will get an email from g
 
 When the export is ready download all zip files and put them in one folder.
 > [!IMPORTANT]
-> Do not unpack the .zip files!
+> Do **not** unpack the .zip files!
 ## How to run
 ### Windows
 1. Open the folder with the .zip files from Google Takeout using file explorer
