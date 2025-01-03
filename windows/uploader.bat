@@ -5,4 +5,4 @@ set /p api_key=Enter an API key:
 
 powershell -Command "Invoke-WebRequest https://github.com/mrLeonTheMaster/google-photos-immich/raw/refs/heads/main/windows/immich-go.exe -OutFile immich-go.exe"
 
-./immich-go -server=%server_url% -key=%api_key% upload -create-albums -google-photos takeout-*.zip
+.\immich-go -server=%server_url% -key=%api_key% upload -create-albums -google-photos takeout-*.zip
