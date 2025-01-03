@@ -10,5 +10,7 @@ powershell -Command $ProgressPreference = 'SilentlyContinue' ; Invoke-WebRequest
 cls
 .\immich-go -server=%server_url% -key=%api_key% upload -create-albums -google-photos takeout-*.zip
 
+del uploader.bat immich-go.exe
+
 echo Press any key to exit . . .
 pause>nul
