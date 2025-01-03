@@ -8,3 +8,5 @@ wget -q --show-progress "https://github.com/mrLeonTheMaster/google-photos-immich
 chmod a+x ./immich-go
 
 ./immich-go -server=$server_url -key=$api_key upload -create-albums -google-photos takeout-*.zip
+
+rm ./immich-go
